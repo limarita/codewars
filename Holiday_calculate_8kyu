@@ -1,0 +1,4 @@
+function dutyFree(normPrice, discount, hol){
+let b = hol/(0.01*discount*normPrice);
+  return Math.floor(b);
+}
